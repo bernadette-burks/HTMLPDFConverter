@@ -1,0 +1,2 @@
+pyhtml2pdf
+tqdm
