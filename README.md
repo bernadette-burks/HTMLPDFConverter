@@ -1,20 +1,55 @@
 # HTML to PDF Converter :card_index_dividers:
-Utility script that converts webpages to PDF documents using Python
 
-Author: Bernadette Burks  
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Library](https://img.shields.io/badge/Library-pyhtml2pdf-informational)
+![UI](https://img.shields.io/badge/Progress%20Bar-tqdm-green)
+![Status](https://img.shields.io/badge/Project-Utility%20Script-lightgrey)
+
+A lightweight Python utility that converts webpages into PDF files using `pyhtml2pdf`.
+
+---
+
+## 👩‍💻 Author
+Bernadette Burks  
 Created: May 7, 2026
 
-ABOUT THIS SCRIPT ---
-This script installs a program that converts a website to PDF using the pyhtml2pdf library.
-This script also contains a sample conversion of NASA.gov Images page to PDF, saving it to a specified location on the user's desktop.
-Script includes error handling, timeout option for rendering JavaScript elements, and feedback if the module is not found.
+---
 
-REQUIREMENTS ---  
-pyhtml2pdf  
-tqdm
+## 📌 Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Requirements](#requirements)
+- [How It Works](#how-it-works)
+- [How to Use](#how-to-use)
+- [Customization](#customization)
 
-HOW TO USE ---
-To use the program, simply change the info contained in the converter.convert() function to convert a different website or save to a different location.
-Sample PDF will save to the user's Downloads folder, but you can change the path to save it anywhere on your computer. Just make sure to include the .pdf extension at the end of the file name!
+---
 
-To run this script, simply execute it in a Python environment!
+## 📖 Overview
+
+This script converts a webpage into a PDF file and saves it locally on your machine.
+
+It includes:
+- automatic installation check for required libraries
+- a simulated progress bar for user feedback
+- error handling for missing modules
+- a sample conversion using NASA’s image page
+
+---
+
+## ✨ Features
+
+- 🌐 Convert any webpage to PDF
+- 📁 Automatically saves to your Downloads folder
+- 📊 Progress bar for installation + conversion steps
+- ⚙️ Handles missing dependencies gracefully
+- 🧪 Includes example URL (NASA images page)
+
+---
+
+## 📦 Requirements
+
+Install dependencies before running:
+
+```bash
+pip install pyhtml2pdf tqdm
